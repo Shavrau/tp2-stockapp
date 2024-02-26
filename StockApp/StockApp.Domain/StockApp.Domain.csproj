@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
+
+<!--regra de negocio 
+entidade
+interface-->
+
+
+<!--Domain n depende de nada
+Application depende de Domain
+Infra data depende de dominio
+ioc todos
+Web ui so conversa com ioc-->
