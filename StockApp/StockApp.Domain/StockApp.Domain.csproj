@@ -6,15 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Validation\" />
+  </ItemGroup>
+
 </Project>
-
-<!--regra de negocio 
-entidade
-interface-->
-
-
-<!--Domain n depende de nada
-Application depende de Domain
-Infra data depende de dominio
-ioc todos
-Web ui so conversa com ioc-->
