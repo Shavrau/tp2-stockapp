@@ -1,5 +1,8 @@
 ﻿using Microsoft.VisualBasic;
+<<<<<<< HEAD
 using StockApp.Domain.Validation;
+=======
+>>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +13,7 @@ namespace StockApp.Domain.Entities
 {
     public class Category
     {
+<<<<<<< HEAD
         #region Atributos
 
         public int Id { get; set;  }
@@ -46,5 +50,11 @@ namespace StockApp.Domain.Entities
             Name = name;   
         }
         #endregion
+=======
+        public int Id { get; set; }
+        public string Name { get; set; }
+        
+        public ICollection<Product> Products { get; set; }
+>>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
     }
 }

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using StockApp.Domain.Validation;
 using System;
+=======
+﻿using System;
+>>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,11 +13,15 @@ namespace StockApp.Domain.Entities
 {
     public class Product
     {
+<<<<<<< HEAD
         #region Atributos
+=======
+>>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
+<<<<<<< HEAD
         public int Stock { get; set; }
         public string Image { get; set; }
         public int CategoryId { get; set; }
@@ -40,5 +48,12 @@ namespace StockApp.Domain.Entities
                 "Invalid description, too short minimum 5 characters.");
 
         }
+=======
+        public int Stock { get; set;}
+        public string Image { get; set; }
+        public int CategoryId { get; set; }
+
+        public Category Category { get; set; }
+>>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
     }
 }
