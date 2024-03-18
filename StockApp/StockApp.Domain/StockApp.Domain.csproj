@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
+
     <Compile Remove="NovaPasta1\**" />
     <Compile Remove="NovaPasta2\**" />
     <Compile Remove="NovaPasta3\**" />
@@ -23,8 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-=======
->>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
+
     <Folder Include="Interfaces\" />
     <Folder Include="Validation\" />
   </ItemGroup>

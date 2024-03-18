@@ -13,7 +13,7 @@ namespace StockApp.Domain.Entities
 {
     public class Product
     {
-<<<<<<< HEAD
+
         #region Atributos
 =======
 >>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
@@ -47,13 +47,13 @@ namespace StockApp.Domain.Entities
             DomainExceptionValidation.When(description.Length < 5,
                 "Invalid description, too short minimum 5 characters.");
 
-        }
-=======
-        public int Stock { get; set;}
-        public string Image { get; set; }
-        public int CategoryId { get; set; }
+            DomainExceptionValidation.When(price < 0, "Invalid price negative value.");
 
-        public Category Category { get; set; }
->>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
+            DomainExceptionValidation.When(stock < 0, "Invalid stock negative value.");
+
+            DomainExceptionValidation.When(image.Length > 250, "Invalid image name too long, maximum 250 characters.");
+
+
+        }
     }
 }
