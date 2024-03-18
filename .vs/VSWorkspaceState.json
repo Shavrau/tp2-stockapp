@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\StockApp",
-    "\\StockApp\\StockApp.Application"
+    "\\StockApp\\StockApp.Domain"
   ],
-  "SelectedNode": "\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
+  "SelectedNode": "\\StockApp\\StockApp.sln",
   "PreviewInSolutionExplorer": false
 }
