@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "qL8z65zRAzzRTI3rQjs5jWjQWVfZhCd/km8hALH2j4tayEWyYktwHIBINahnPb6AzNd5vK7RHRYtA139SFnhjQ==",
-=======
-  "dgSpecHash": "YIjYfbRpbfPOYa2K/z0AGIP+hLm3qZVZ1eycIQ5pnPNl4i/QsK3KHTcLBdcs0yXmrM/OuldImqjLqRI3akvVJQ==",
->>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
   "success": true,
   "projectFilePath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
   "expectedPackageFiles": [],

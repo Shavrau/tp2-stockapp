@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "2cQSQbg9JH9wviOprEf0mHwOp3qw2mYk6BNo2xsgf4Cx9d7aZSLsOwE6777v8rjDNLyrUnhxq/wlwabqaXhAfw==",
-=======
-  "dgSpecHash": "oKDDBIbOyOE8aH25XoYGmG0t7mJENBO21oVEKEocLW4SSCFhOsBMItSfS2yctjN57SD31prO8hGsmotongrh2Q==",
->>>>>>> e5d107ecfa172be473d2a075501cdf8113a2fc87
   "success": true,
   "projectFilePath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.WebUI\\StockApp.WebUI.csproj",
   "expectedPackageFiles": [],
