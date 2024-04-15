@@ -30,13 +30,15 @@ namespace Stockapp.Domain.Test
             action.Should().Throw<StockApp.Domain.Validation.DomainExceptionValidation>()
                 .WithMessage("Invalid name, too short, minimum 3 characters.");
         }
-        [Fact(DisplayName = "Create Category With Null State Id")]
+
+        [Fact(DisplayName = "Create Category With Null State Name")]
         public void CreateCategory_WithNullParameters_DomainExceptionInValidName()
         {
             Action action = () => new Category(1, "");
             action.Should().Throw<StockApp.Domain.Validation.DomainExceptionValidation>()
                 .WithMessage("Invalid name, name is required.");
         }
+
         #endregion
     }
 }
