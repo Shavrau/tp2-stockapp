@@ -12,7 +12,7 @@ namespace StockApp.Domain.Entities
     {
         #region Atributos
         public int Id { get; set; }
-            public string Name { get; set; }
+        public string Name { get; set; }
         #endregion
 
         #region Construtores
@@ -23,12 +23,15 @@ namespace StockApp.Domain.Entities
 
         public Category(int id, string name)
         {
-            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+            DomainExceptionValidation.When(id < 0, "Invalid id value.");
             Id = id;
             ValidateDomain(name);
         }
-        
+
         public ICollection<Product> Products { get; set; }
+        public object Description { get; set; }
+        public object Price { get; set; }
+        public object Image { get; set; }
         #endregion
 
         #region Validação
