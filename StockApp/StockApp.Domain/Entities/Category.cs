@@ -23,7 +23,7 @@ namespace StockApp.Domain.Entities
 
         public Category(int id, string name)
         {
-            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+            DomainExceptionValidation.When(id < 0, "Invalid id value.");
             Id = id;
             ValidateDomain(name);
         }
@@ -31,7 +31,7 @@ namespace StockApp.Domain.Entities
         public ICollection<Product> Products { get; set; }
         public object Description { get; set; }
         public object Price { get; set; }
-        public object Category { get; set; }
+        public object Image { get; set; }
         #endregion
 
         #region Validação

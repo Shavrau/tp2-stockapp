@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\StockApp",
-    "\\StockApp\\StockApp.Infra.Data"
+    "\\StockApp\\StockApp.Domain.Test",
+    "\\StockApp\\StockApp.Infra.Data",
+    "\\StockApp\\StockApp.Infra.Data\\EntityConfiguration",
+    "\\StockApp\\StockApp.Infra.Data\\Repositories"
   ],
-  "SelectedNode": "\\StockApp\\StockApp.Infra.Data\\obj",
   "PreviewInSolutionExplorer": false
 }

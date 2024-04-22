@@ -11,7 +11,7 @@ namespace StockApp.Infra.Data.EntityConfiguration
 {
     public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
-        public void Configure(EntityTypeBuilder<Category> builder)
+        public void Configure(EntityTypeBuilder<Product> builder)
         {
             //primarykey
             builder.HasKey(t => t.Id);
@@ -22,7 +22,7 @@ namespace StockApp.Infra.Data.EntityConfiguration
             //decimal price
             builder.Property(p => p.Price).HasPrecision(10, 2);
             //chave estrangeira de categoria build hasone +> WithMany HasForeingKey (Atributo)
-            builder.HasOne(e => e.Category).WithMany(e => e.Products).HasForeingKey(e => e.CategoryId);
+           builder.HasOne(e => e.Category).WithMany(e => e.Products).HasForeignKey(e => e.CategoryId);
         }
     }
 }
